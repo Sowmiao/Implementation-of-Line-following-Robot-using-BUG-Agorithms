@@ -153,9 +153,12 @@ if (accelerometer.x>0 || accelerometer.y>1000) // Accelerometer readings from th
 accelerometer over the monitor
 {
 start = 1;
-} else {
+} 
+else 
+{
 start = 0;
 }
+
 }
 //when you hit a boundary
 void lineFollow()
